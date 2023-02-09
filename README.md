@@ -8,8 +8,7 @@ This is a work in progress.
 
 This is a fork of [Power Mail-in-a-Box](https://power-mailinabox.net), which itself is a fork of [Mail-in-a-Box](https://mailinabox.email/)) and a complete pre-configured mail appliance, quickly deployable in a matter of minutes.
 
-The main difference to the main project is that here we want a complete replacement for proprietary office solutions for personal use.  
-Power Mail-in-a-Box already provides ad-hoc, advanced features. While Mail-in-a-Box caters to beginners by providing sane configurations, Power Mail-in-a-Box also attempts to cater to advanced users that want deeper levels of customization, and Power Office-in-a-Box takes this to the complete Office software solution level.
+The main difference to the main project is that here we want a complete replacement for proprietary office solutions for personal use. Power Mail-in-a-Box already provides ad-hoc, advanced features. While Mail-in-a-Box caters to beginners by providing sane configurations, Power Mail-in-a-Box also attempts to cater to advanced users that want deeper levels of customization, and Power Office-in-a-Box takes this to the complete Office software solution level.
 
 ## Features
 - Configure Power Mail-in-a-Box to use an external SMTP relay;
@@ -40,7 +39,7 @@ Power Mail-in-a-Box already provides ad-hoc, advanced features. While Mail-in-a-
 The machine this appliance will be installed on needs to have the following specs (or better). Most cloud providers are able to provide VM's that satisfy these specs at relatively low cost.
 
 <small>_These specs depend on the number of users being served and/or amount of traffic_</small>
-- 2 CPU core;
+- 2 CPU cores;
 - 1 GB of RAM (plus **at least 256MB** per user using Office Online);
 - 10GB of disk;
 - **One of the following operating systems:**
@@ -84,7 +83,7 @@ sudo dpkg-reconfigure locales
 
 3. Run the following command, and then follow the instructions that appear on the screen:
 ```
-curl -L https://power-mailinabox.net/setup.sh | sudo bash
+(to be updated) curl -L https://power-mailinabox.net/setup.sh | sudo bash
 ```
 
 # Upgrading
