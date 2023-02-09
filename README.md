@@ -1,14 +1,15 @@
-# Power Mail-in-a-Box
+# Power Office-in-a-Box
 ## **[Installation](#installation)** (current version: v60.5)
 ## **[Upgrading Quick Start](#upgrading)**
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/davness)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)]([https://ko-fi.com/lifeboy](https://ko-fi.com/lifeboy))
 
 This is a work in progress. 
 
 This is a fork of [Power Mail-in-a-Box](https://power-mailinabox.net), which itself is a fork of [Mail-in-a-Box](https://mailinabox.email/)) and a complete pre-configured mail appliance, quickly deployable in a matter of minutes.
 
-It's main difference to the main project is focused on ad-hoc, advanced features. While Mail-in-a-Box caters to beginners by providing sane configurations, Power Mail-in-a-Box also attempts to cater to advanced users that want deeper levels of customization.
+The main difference to the main project is that here we want a complete replacement for proprietary office solutions for personal use.  
+Power Mail-in-a-Box already provides ad-hoc, advanced features. While Mail-in-a-Box caters to beginners by providing sane configurations, Power Mail-in-a-Box also attempts to cater to advanced users that want deeper levels of customization, and Power Office-in-a-Box takes this to the complete Office software solution level.
 
 ## Features
 - Configure Power Mail-in-a-Box to use an external SMTP relay;
@@ -28,6 +29,8 @@ It's main difference to the main project is focused on ad-hoc, advanced features
 - **Concentration** - all the services you need in just one box.
 - **Support** - support a wide range of operating systems when possible, without compromising the codebase as a whole.
 - **Lightweight** - should be able to run even with very limited resources.
+- **LibreOffice online** - using the personal and development edition of Collabora Online with the CODE server.
+- **OnlyOffice** - For MS Office compatible document editing.
 
 ## Non-goals
 - **Scalability** - this appliance is geared towards individuals and small/mid-sized organizations. If your use case is mission-critical it probably is a better idea to shop for a product that provides support.
@@ -37,8 +40,8 @@ It's main difference to the main project is focused on ad-hoc, advanced features
 The machine this appliance will be installed on needs to have the following specs (or better). Most cloud providers are able to provide VM's that satisfy these specs at relatively low cost.
 
 <small>_These specs depend on the number of users being served and/or amount of traffic_</small>
-- 1 CPU core;
-- 512MB of RAM (**at least 1GB** is recommended);
+- 2 CPU core;
+- 1 GB of RAM (plus **at least 256MB** per user using Office Online);
 - 10GB of disk;
 - **One of the following operating systems:**
 - - Debian GNU/Linux 11 (Bullseye)
@@ -89,14 +92,14 @@ curl -L https://power-mailinabox.net/setup.sh | sudo bash
 To upgrade an existing box to the latest version, run the same command as you do to perform a new installation:
 
 ```
-curl -L https://power-mailinabox.net/setup.sh | sudo bash
+(to be updated) curl -L https://power-mailinabox.net/setup.sh | sudo bash
 ```
 
 ## Installing or upgrading to a different version
 If for some reason you wish to install a different version (for example, an older version for a workaround, or a beta/release candidate version for testing), you can use the following command.
 
 ```
-curl -L https://power-mailinabox.net/<VERSION>/setup.sh | sudo bash
+(to be updated) curl -L https://power-mailinabox.net/<VERSION>/setup.sh | sudo bash
 ```
 Where `<VERSION>` is the version you want to install. (**Example:** `v60.0`).
 
