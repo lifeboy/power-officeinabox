@@ -4,7 +4,9 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/davness)
 
-Power Mail-in-a-Box (a fork of [Mail-in-a-Box](https://mailinabox.email/)) is a complete pre-configured mail appliance, quickly deployable in a matter of minutes.
+This is a work in progress. 
+
+This is a fork of [Power Mail-in-a-Box](https://power-mailinabox.net), which itself is a fork of [Mail-in-a-Box](https://mailinabox.email/)) and a complete pre-configured mail appliance, quickly deployable in a matter of minutes.
 
 It's main difference to the main project is focused on ad-hoc, advanced features. While Mail-in-a-Box caters to beginners by providing sane configurations, Power Mail-in-a-Box also attempts to cater to advanced users that want deeper levels of customization.
 
